@@ -34,17 +34,17 @@ df = df.drop_duplicates()
 column = df.shape[1]
 for x in range(column):
     column = df.columns[x]
-    answer = input('do you want to clean the column named :' +column +'(YES/NO)')
+    answer = input('do you want to clean the column named :' +column +'(Yes/No)')
     
     if answer == 'YES' or 'yes':
-        answer = input('do you want to delete an entire raw because of empty cells (YES/NO)')
+        answer = input('do you want to delete an entire raw because of empty cells (Yes/No)')
         if answer == 'YES' or 'yes':
             df = df.dropna(subset=[column])
         elif answer == 'NO' or 'no':
             pass
 
 
-        answer = input('do you want to replace or delete some characters  (YES/NO)')
+        answer = input('do you want to replace or delete some characters (Yes/No)')
         if answer == 'YES' or 'yes':
             df = replacing(df, column)
         elif answer == 'NO' or 'no':
