@@ -1,8 +1,8 @@
 ID,Name,Age,Salary,Join Date,Department,Notes
 101,John Doe,29,$45.000,12/01/2020,HR,Excellent performer[1]
-102,,35,$55.000,03-15-2019,Finance,Promoted last year
+102,,ten,$55.000,03-15-2019,Finance,Promoted last year
 103,Mary Ann,N/A,$58.000,2020-10-23,IT,
-104,Jane Smith,28,$45.000,12/01/2020,HR,Excellent performer[1]
+104,Jane Smith,bruuh,$45.000,12/01/2020,HR,Excellent performer[1]
 105,Bob "O'Reilly",thirty-two,$60.000,07.05.2018,Marketing,
 106,,25,,2019/03/01,IT,New hire
 107,Susan Lee,NaN,$65.000,2021-06-30,Finance,"Needs additional training[2]"
